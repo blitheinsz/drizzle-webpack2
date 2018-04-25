@@ -16,7 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "drizzle-zxy": "^0.4.17",
-    "jquery": "^1.10.0",
+    "jquery": "^3.0.0",
     "handlebars": "^4.0.5",
     "lodash": "^4.0.0",
     "qrcodejs2": "^0.0.2",
