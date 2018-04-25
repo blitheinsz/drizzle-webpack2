@@ -1,0 +1,24 @@
+{{#module}}
+   <div class="header relative" data-region="main-r">
+    
+   </div>
+{{/module}}
+{{#view 'main'}}
+    <h1 class="brand-title" style="text-align:center">与后台数据交互示例</h1>
+    <div class="talign ttop">
+        <button id="getID">Get请求</button>
+        <button id="postID">Post请求</button>
+        <button id="deleteID">Delete请求</button>
+        <button id="putID">Put请求</button>
+    </div>
+    <div class="ttop mlist">
+        <ul>
+            {{#each getM.aeax}}
+                <li><a title="{{url}}">{{videoName}}</a></li>
+            {{/each}}
+        </ul>
+    </div>
+    <div class="r-person">
+        <img src="./images/person.jpg"/>
+    </div>
+{{/view}} 

@@ -1,0 +1,26 @@
+:root {
+    --font-size: 1em;
+    --color-1:  #6eb162;
+}
+.mlist{
+	width: calc(var(--font-size) * 15);
+    text-align: center;
+    & li {
+        text-align: left;
+        padding-top: calc(var(--font-size) * 0.5);
+    }
+}
+.flx {
+    display: flex;
+}
+.r-person {
+    position: absolute;
+    left: calc(var(--font-size) * 24);
+    top: calc(var(--font-size) * 9);
+    width: calc(var(--font-size) * 10);
+    height: calc(var(--font-size) * 13);
+    & img {
+        width: 100%;
+        height: 100%;
+    }
+}

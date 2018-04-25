@@ -1,0 +1,18 @@
+{{#module}}
+    <div class="list-box">
+        <div data-region="main-rg"></div>
+    </div>
+{{/module}}
+{{#view "main"}}
+	<div class="mbox">
+	    <h1 class="brand-title">课程列表</h1>
+        <form><input type="checkbox" id="sexcheck" {{#if showMan}}checked='checked'{{/if}}>男</input></form>
+        <ul>
+          {{#each listData}}
+            <li><span>科目：{{name}}</span>   <span class="spleft">教师：{{teacher}}</span></li>
+          {{/each}}
+        </ul>
+        <h1 class="brand-title">二维码</h1>
+        <div id="qr-box" class="qrcode"></div>
+	</div>
+{{/view}}
